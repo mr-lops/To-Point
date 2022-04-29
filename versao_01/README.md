@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://drive.google.com/file/d/1JyF1d_Q5iF_VfZhhVGNeKtVpWGOfounJ/view?usp=sharing">Baixar App</a>
+<a href="https://drive.google.com/file/d/1JyF1d_Q5iF_VfZhhVGNeKtVpWGOfounJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Baixar App</a>
 </p>
 <br>
 <br>
