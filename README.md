@@ -11,12 +11,16 @@ A principal ferramenta utilizada nesse projeto foi o processamento de linguagem 
 </div>
 <br>
 <br>
-<img src="https://i.ibb.co/q5kZbBD/Captura-de-Tela-251.png" alt="Captura-de-Tela-251" border="0">
+<img src="https://i.ibb.co/mtTPLvr/Captura-de-Tela-262.png" alt="Captura-de-Tela-262" border="0">
 <br>
-<img src="https://i.ibb.co/J3WFndD/Captura-de-Tela-259.png" alt="Captura-de-Tela-259" border="0">
+<img src="https://i.ibb.co/Rc37Nm5/Captura-de-Tela-263.png" alt="Captura-de-Tela-263" border="0">
 <br>
-<img src="https://i.ibb.co/TPCQSj9/Captura-de-Tela-260.png" alt="Captura-de-Tela-260" border="0">
+<img src="https://i.ibb.co/tKzD1Ks/Captura-de-Tela-264.png" alt="Captura-de-Tela-264" border="0">
 <br>
-<img src="https://i.ibb.co/FXtgpzH/Captura-de-Tela-256.png" alt="Captura-de-Tela-256" border="0">
+<img src="https://i.ibb.co/tsLxvxm/Captura-de-Tela-265.png" alt="Captura-de-Tela-265" border="0">
+<br>
+<img src="https://i.ibb.co/zb3kxmx/Captura-de-Tela-266.png" alt="Captura-de-Tela-266" border="0">
+<br>
+<img src="https://i.ibb.co/5TCk9fJ/Captura-de-Tela-267.png" alt="Captura-de-Tela-267" border="0">
 <br>
 <p align="right"> codigo fonte estara disponivel futuramente </p>
