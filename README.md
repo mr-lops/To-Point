@@ -19,7 +19,7 @@ A principal ferramenta utilizada nesse projeto foi o processamento de linguagem 
 <br>
 <img src="https://i.ibb.co/tsLxvxm/Captura-de-Tela-265.png" alt="Captura-de-Tela-265" border="0">
 <br>
-<img src="https://i.ibb.co/zb3kxmx/Captura-de-Tela-266.png" alt="Captura-de-Tela-266" border="0">
+<img src="https://i.ibb.co/0qCTf7F/Captura-de-Tela-266.png" alt="Captura-de-Tela-266" border="0">
 <br>
 <img src="https://i.ibb.co/5TCk9fJ/Captura-de-Tela-267.png" alt="Captura-de-Tela-267" border="0">
 <br>
