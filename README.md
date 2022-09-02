@@ -11,14 +11,19 @@ A principal ferramenta utilizada nesse projeto foi o processamento de linguagem 
 PAARA RODAR O PROJETO TENHA O DOCKER INSTALADO E RODE OS SEGUINTES COMANDOS:
 <br>
 ```
-docker image build -t to-point .
+docker image build -t topoint . 
 ```
 <br>
 
 ```
-docker run -p 5001:5000 -d to-point
+docker run -p 5001:5000 topoint --name to-point
 ```
+<br>
+EM SEGUIDA VA AO NAVEGADOR E ACESSE O SEU ENDEREÇO LOCAL NA PORTA 5001
+<br>
+http://127.0.0.1:5001
 
+<br>
 <br>
 
 <img src="https://i.ibb.co/mtTPLvr/Captura-de-Tela-262.png" alt="Captura-de-Tela-262" border="0">
