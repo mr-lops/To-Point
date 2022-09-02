@@ -16,13 +16,21 @@ docker image build -t topoint .
 <br>
 
 ```
-docker run --name to-point -p 5000:5000 topoint 
+docker run --name to-point -p 5000:5000 -d topoint 
 ```
 <br>
+
 EM SEGUIDA VA AO NAVEGADOR E ACESSE O SEU ENDEREÇO LOCAL NA PORTA 5000
 <br>
 http://127.0.0.1:5000
 
+<br>
+PARA PARAR A EXECUÇÃO UTILIZE O SEGUINTE COMANDO
+<br>
+
+```
+docker container stop to-point
+```
 <br>
 <br>
 
