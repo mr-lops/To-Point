@@ -23,4 +23,3 @@ A principal ferramenta utilizada nesse projeto foi o processamento de linguagem 
 <br>
 <img src="https://i.ibb.co/5TCk9fJ/Captura-de-Tela-267.png" alt="Captura-de-Tela-267" border="0">
 <br>
-<p align="right"> codigo fonte estara disponivel futuramente </p>
