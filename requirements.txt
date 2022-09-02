@@ -1,0 +1,9 @@
+flask
+numpy
+pdfminer.six
+wget
+goose3
+requests
+pdftitle
+nltk
+sumy

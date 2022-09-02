@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="modal fade" id="nuvemPalavras" method="get" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content text-bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">{{titulo}}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body justify-content-center ">
+        <div id="nuvemIMG" name="nuvemIMG" style="width: auto;height:auto">
+          <canvas id = "tcanvas" name="tcanvas" width="700" height="400" style="display: block;margin: 0 auto;width: 100%;height: auto;"></canvas>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a id="download" download="NuvemPalavras.png">
+          <button type="button" class="btn btn-success" onclick="download()">Exportar</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="col">
+    <div id="ad" style="height: 30px;
+          background-size: cover"></div>
+  </div>
+
+  <div class="col">
+    <div class="row mt-3">
+      <div class="container ">
+        <div class="d-flex flex-row-reverse ">
+          
+          <button type="button" class="btn btn-primary" id="nuvem" data-bs-toggle="modal"
+            data-bs-target="#nuvemPalavras">Nuvem De Palavras</button>
+
+          <button type="button" class="btn btn-success mx-2" id="exportarRes" onclick="exportarPDF()">Exportar
+            Texto</button>
+
+          <div class="form-check mt-2 bg-dark text-white border border-primary rounded"
+            style="padding-left: 2.5%; padding-right: 1%;">
+            <input class="form-check-input" type="checkbox" name="somente" id="somente" checked>
+            <label class="form-check-label" for="somente">
+              <b>Somente Resumo</b>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mx-1 mt-2">
+
+      <div class="container form-control text-bg-dark " method="get" id="conteudo">
+        <div id="paraPDF">
+          <h2 style="text-align:center;" id="titulo">{{titulo}}</h2>
+          <br>
+          <label id="resumo">
+            {% for res in resumo %}
+            {{res}}
+            <br>
+            {% endfor %}
+          </label>
+
+          <label id="completo" style="display: none;">
+            {% for ori in original %}
+            {% if ori in resumo %}
+            <mark>{{ori}}</mark>
+            {% else %}
+            {{ori}}
+            {% endif %}
+            <br>
+            {% endfor %}
+          </label>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mx-1 mt-2">
+      <label style="visibility: hidden;">teste</label>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js" integrity="sha512-lGnVsh3WK0YJ7NX7rQmUu6kqF7vqELuDrUTnxpI2iD86VwI+OlQhi3EAJJZbrBUOfDFOAYAkigxkApHGM2IZTg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  canvas = document.getElementById("tcanvas");
+  var tagList= {{ nuvem|tojson }};
+  WordCloud(document.getElementById('tcanvas'), {
+  list: tagList,
+  gridSize: Math.round(16 * document.getElementById('tcanvas').width / 1024),
+  weightFactor: 2.3,
+  fontFamily: 'Finger Paint, cursive, sans-serif',
+  color: 'random-light',
+  backgroundColor: '#212529'
+});
+
+  function download() {
+    var download = document.getElementById("download");
+    var image = document.getElementById("tcanvas").toDataURL("image/png")
+        .replace("image/png", "image/octet-stream");
+    download.setAttribute("href", image);
+  }
+</script>
+{% endblock content %}
