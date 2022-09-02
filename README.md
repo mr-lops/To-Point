@@ -16,12 +16,12 @@ docker image build -t topoint .
 <br>
 
 ```
-docker run -p 5001:5000 topoint --name to-point
+docker run --name to-point -p 5000:5000 topoint 
 ```
 <br>
-EM SEGUIDA VA AO NAVEGADOR E ACESSE O SEU ENDEREÇO LOCAL NA PORTA 5001
+EM SEGUIDA VA AO NAVEGADOR E ACESSE O SEU ENDEREÇO LOCAL NA PORTA 5000
 <br>
-http://127.0.0.1:5001
+http://127.0.0.1:5000
 
 <br>
 <br>
