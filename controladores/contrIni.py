@@ -3,6 +3,7 @@ from flask import Blueprint
 from sumarizador.extrairConteudo import extrairPDF, extrairLink, extrairTXT
 from sumarizador.sumarizar import gerarResumo, gerarNuvem
 
+
 inicioBP = Blueprint("inicio", __name__)
 #caminho = os.path.dirname(os.path.abspath(__file__))
 porcent = { '50':'Médio', '75':'Baixo', '25':'Alto'}
