@@ -45,6 +45,7 @@ def extrairTXT(arquivo):
     return conteudo
 
 
+
 def extrairLink(pagina):
     conteudo = ''
     titulo = ''
