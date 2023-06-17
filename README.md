@@ -5,7 +5,6 @@
 - [Sobre](#about)
 - [Como Rodar o Projeto](#run)
 
-
 ## Sobre <a name = "about"></a>
 
 ...
