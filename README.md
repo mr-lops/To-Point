@@ -18,7 +18,7 @@ A principal tecnologia utilizada nesse projeto foi o processamento de linguagem 
 <div style="text-align: center;">
 <i> Ferramentas utilizadas</i>
 <br>
-<img src="img/tech.JPG" height="70%" width="70%">
+<img src="img/tech.JPG" height="70%" width="70%" border="0">
 </div>
 
 <br>
@@ -35,7 +35,7 @@ projeto, e por fim, a tecla gerar que irá iniciar o processo de redução do te
 <div style="text-align: center;">
 <i>Figura 1 – Tela de início</i>
 <br>
-<img src="img/img (1).png" height="70%" width="70%">
+<img src="img/img (1).png" height="70%" width="70%" border="0">
 </div>
 
 <br>
@@ -49,7 +49,7 @@ validado pelo sistema, iniciando o processo de geração do resumo.
 <div style="text-align: center;">
 <i>Figura 2 – O sistema está processando o conteúdo</i>
 <br>
-<img src="img/img (2).png" height="70%" width="70%">
+<img src="img/img (2).png" height="70%" width="70%" border="0">
 </div>
 
 <br>
@@ -63,7 +63,7 @@ aleatoriamente para que a aplicação retorne algum tipo de receita.
 <div style="text-align: center;">
 <i>Figura 3 – Visualizando somente o resumo gerado</i>
 <br>
-<img src="img/img (3).png" height="70%" width="70%">
+<img src="img/img (3).png" height="70%" width="70%" border="0">
 </div>
 
 <br>
@@ -78,7 +78,7 @@ Texto”, a função desse botão é exportar o conteúdo extraído para o forma
 <div style="text-align: center;">
 <i>Figura 4 – Tela de visualizar o resumo com o conteúdo original</i>
 <br>
-<img src="img/img (4).png" height="70%" width="70%">
+<img src="img/img (4).png" height="70%" width="70%" border="0">
 </div>
 
 <br>
@@ -92,7 +92,7 @@ ele exporta a nuvem de palavras no formato PNG.
 <div style="text-align: center;">
 <i>Figura 5 – Tela de visualizar a nuvem de palavras</i>
 <br>
-<img src="img/img (5).png" height="70%" width="70%">
+<img src="img/img (5).png" height="70%" width="70%" border="0">
 </div>
 
 <br>
@@ -105,7 +105,7 @@ Todo feedback é enviado para o e-mail do desenvolvedor do software.
 <div style="text-align: center;">
 <i>Figura 6 – Tela onde é falado sobre o projeto</i>
 <br>
-<img src="img/img (6).png" height="70%" width="70%">
+<img src="img/img (6).png" height="70%" width="70%" border="0">
 </div>
 
 <br>
