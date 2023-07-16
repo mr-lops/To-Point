@@ -15,7 +15,7 @@ A principal tecnologia utilizada nesse projeto foi o processamento de linguagem 
 
 <br>
 
-<div style="align: center;">
+<div align="center">
 <i> Ferramentas utilizadas</i>
 <br>
 <img src="img/tech.JPG" height="70%" width="70%" border="0">
