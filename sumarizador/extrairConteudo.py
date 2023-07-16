@@ -49,8 +49,9 @@ def extrairTXT(arquivo):
 def extrairLink(pagina):
     conteudo = ''
     titulo = ''
+    req = requests.get(pagina, timeout=5)
     if pagina.endswith(".pdf"):  # tipo WEB e PDF
-        if requests.get(pagina).status_code == 200:
+        if req.status_code == 200:
             arquivo = wget.download(pagina, bar=None)
             output_string = StringIO()
             with open(arquivo, 'rb') as in_file:
@@ -71,7 +72,7 @@ def extrairLink(pagina):
             raise Excecao("Não foi possivel localizar a pagina web!")
 
     else:  # tipo WEB
-        if requests.get(pagina).status_code == 200:
+        if req.status_code == 200:
             cont = goo.extract(pagina)
             titulo = cont.title
             conteudo = cont.cleaned_text
