@@ -97,13 +97,13 @@ ele exporta a nuvem de palavras no formato PNG.
 
 <br>
 
-A figura 6 tem-se uma introdução falando a função do software e objetivos do
+A figura 6 tem-se uma introdução da função do software e objetivos do
 projeto, logo abaixo, ao lado do nome do desenvolvedor que projetou o software, tem
 a opção de “Feedback”, é onde o usuário do sistema pode deixar críticas e sugestões.
 Todo feedback é enviado para o e-mail do desenvolvedor do software.
 
 <div align="center">
-<i>Figura 6 – Tela onde é falado sobre o projeto</i>
+<i>Figura 6 – Tela que descreve o objetivo do projeto</i>
 <br>
 <img src="img/img (6).png" height="70%" width="70%" border="0">
 </div>
