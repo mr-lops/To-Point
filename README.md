@@ -32,7 +32,7 @@ redução para serem aplicados no texto e a opção de dar feedback na parte de 
 da tela. O botão “sobre” é para o usuário conhecer um pouco sobre do que se trata o
 projeto, e por fim, a tecla gerar que irá iniciar o processo de redução do texto.
 
-<div style="text-align: center;">
+<div align="center">
 <i>Figura 1 – Tela de início</i>
 <br>
 <img src="img/img (1).png" height="70%" width="70%" border="0">
@@ -46,7 +46,7 @@ médio, que inclusive é o nível padrão, em seguida o usuário clicou no botã
 então aparece um ícone de carregamento, indicando que o conteúdo está sendo
 validado pelo sistema, iniciando o processo de geração do resumo.
 
-<div style="text-align: center;">
+<div align="center">
 <i>Figura 2 – O sistema está processando o conteúdo</i>
 <br>
 <img src="img/img (2).png" height="70%" width="70%" border="0">
@@ -60,7 +60,7 @@ processamento natural julgou importante. É possível ver também que existe um
 anúncio na parte superior da tela, abaixo do logo da aplicação, anúncios são gerados
 aleatoriamente para que a aplicação retorne algum tipo de receita.
 
-<div style="text-align: center;">
+<div align="center">
 <i>Figura 3 – Visualizando somente o resumo gerado</i>
 <br>
 <img src="img/img (3).png" height="70%" width="70%" border="0">
@@ -75,7 +75,7 @@ irá mostrar as principais sentenças escolhidas pelo algoritmo de processamento
 linguagem natural. Existe acima do resumo gerado, um botão com o nome “Exportar
 Texto”, a função desse botão é exportar o conteúdo extraído para o formato PDF.
 
-<div style="text-align: center;">
+<div align="center">
 <i>Figura 4 – Tela de visualizar o resumo com o conteúdo original</i>
 <br>
 <img src="img/img (4).png" height="70%" width="70%" border="0">
@@ -89,7 +89,7 @@ o usuário as palavras-chave do conteúdo escrito, o tamanho da palavra indica a
 importância no texto. Na parte de baixo da janela existe um botão chamado “Exportar”,
 ele exporta a nuvem de palavras no formato PNG.
 
-<div style="text-align: center;">
+<div align="center">
 <i>Figura 5 – Tela de visualizar a nuvem de palavras</i>
 <br>
 <img src="img/img (5).png" height="70%" width="70%" border="0">
@@ -102,7 +102,7 @@ projeto, logo abaixo, ao lado do nome do desenvolvedor que projetou o software, 
 a opção de “Feedback”, é onde o usuário do sistema pode deixar críticas e sugestões.
 Todo feedback é enviado para o e-mail do desenvolvedor do software.
 
-<div style="text-align: center;">
+<div align="center">
 <i>Figura 6 – Tela onde é falado sobre o projeto</i>
 <br>
 <img src="img/img (6).png" height="70%" width="70%" border="0">
