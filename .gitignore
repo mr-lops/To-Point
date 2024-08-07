@@ -1,3 +1,9 @@
 __pycache__
-venv
 .vscode
+mypy.ini
+pytest.ini
+OLD_controladores/
+OLD_static/
+OLD_sumarizador/
+OLD_templates/
+db.sqlite3
